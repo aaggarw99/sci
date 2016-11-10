@@ -40,8 +40,10 @@ body{
   color: rgba(245, 245, 245, 1);
 }
 
-#sidebar ul li{
+#sidebar li{
   list-style: none;
+  margin-bottom: 16px;
+
 }
 
 #no_scroll {
