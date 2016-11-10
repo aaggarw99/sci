@@ -5,6 +5,8 @@ html{
 
 header{
   width: 75%;
+  left: 0px;
+  top: 0px;
   background-color: lightgreen;
   height: 25%;
   top: 0;
@@ -43,6 +45,7 @@ body{
 #sidebar li{
   list-style: none;
   margin-bottom: 16px;
+  cursor: pointer;
 
 }
 
