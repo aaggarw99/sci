@@ -60,4 +60,5 @@ body{
   right: 90%;
   left: 0;
   bottom: 0;
+  z-index: 1;
 }
