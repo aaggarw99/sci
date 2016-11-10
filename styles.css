@@ -5,9 +5,11 @@ html{
 }
 
 header{
+  width: 100%;
   background-color: lightgreen;
   height: 25%;
   top: 0;
+  line-height:  50%;
 }
 
 #no_scroll {
