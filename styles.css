@@ -29,7 +29,7 @@ body{
   z-index: 0;
   position: fixed;
   right: 0;
-  left: 0px;
+  left: -190px;
   top: 0px;
   bottom: 0px;
   width: 160px;
@@ -74,4 +74,11 @@ a:hover{
 
 a{
   text-decoration: none;
+}
+
+#side_toggle {
+  display: none;
+}
+#side_toggle:checked + .wrapper .sidebar{
+  left: 0px;
 }
