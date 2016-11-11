@@ -47,6 +47,7 @@ body{
   list-style: none;
   margin-bottom: 16px;
   margin-top: 8px;
+  margin-left: 15px;
   cursor: pointer;
 
 }
