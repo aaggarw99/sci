@@ -44,9 +44,12 @@ body{
 
 #sidebar li{
   list-style: none;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   margin-top: 12px;
   cursor: pointer;
+  font-family: "ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
 
 }
 
@@ -62,6 +65,7 @@ body{
   z-index: 1;
   font-size: 30px;
   color: black;
+
 }
 a:hover{
   color: lightgreen;
