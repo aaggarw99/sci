@@ -33,7 +33,7 @@ body{
   left: 0px;
   top: 0px;
   bottom: 0px;
-  width: 140px;
+  width: 160px;
   padding: 5px;
   background: #333;
   color: rgba(245, 245, 245, 0.8)
@@ -47,7 +47,6 @@ body{
   list-style: none;
   margin-bottom: 16px;
   margin-top: 8px;
-  margin-left: 5px;
   cursor: pointer;
 
 }
@@ -60,11 +59,11 @@ body{
   text-decoration: none;
   position: fixed;
   top: 10px;
-  left: 170px;
+  left: 190px;
   z-index: 1;
   font-size: 30px;
+  color: black;
 }
-
-a{
-  border: 2px solid black;
+a .toggle:hover {
+  color: #333;
 }
