@@ -1,10 +1,11 @@
 html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
-  width: 100%;
 }
 
 header{
   width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   left: 0px;
   top: 0px;
   background-color: lightgreen;
