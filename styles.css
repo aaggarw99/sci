@@ -60,9 +60,7 @@ body{
   text-decoration: none;
   position: fixed;
   top: 10px;
-  right: 0;
   left: 170px;
-  bottom: 0;
   z-index: 1;
   font-size: 30px;
 }
