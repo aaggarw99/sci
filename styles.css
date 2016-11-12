@@ -30,6 +30,8 @@ body{
   width: 210px;
   height: 100%;
   padding: 10px;
+  text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .menu_toggle {
