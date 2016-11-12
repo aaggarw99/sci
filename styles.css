@@ -12,6 +12,12 @@ body{
   left: 0;
 }
 
+.menu-side,
+.menu {
+  -webkit-transition: left 0.2s ease;
+  transition: left 0.2s ease;
+}
+
 .menu-open {
   left: 231px;
 }
@@ -29,8 +35,7 @@ body{
   left: -231px;
   width: 210px;
   height: 100%;
-  padding: 20px;
-
+  padding: 10px;
 }
 
 .menu-side ul li {
