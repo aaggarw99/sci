@@ -2,6 +2,9 @@ html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
 }
 
+.menu h1 {
+  text-align: center;
+}
 
 body{
   background-color: whitesmoke;
