@@ -29,7 +29,7 @@ body{
 .menu-side {
   background-color: #333;
   border-right: 1px solid #000;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: 0;
   left: -231px;
@@ -51,4 +51,8 @@ body{
 
 a{
   text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 1);
 }
