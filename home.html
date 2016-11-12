@@ -18,12 +18,10 @@
       </div>
     </header>
     <script>
-      (
-        function() {
+      (function() {
           var body = $('body');
           $('.menu-toggle').bind('click', function(){
-              console.log('Clicked');
-
+              body.toggleClass('menu-open');
           });
         })();
     </script>
