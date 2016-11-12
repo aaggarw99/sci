@@ -17,7 +17,16 @@
         blah blah
       </div>
     </header>
+    <script>
+      (
+        function() {
+          var body = $('body');
+          $('.menu-toggle').bind('click', function(){
+              console.log('Clicked');
 
+          });
+        })();
+    </script>
 
   </body>
 
