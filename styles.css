@@ -29,6 +29,7 @@ body{
 .menu-side {
   background-color: #333;
   border-right: 1px solid #000;
+  color: #fff;
   position: fixed;
   top: 0;
   left: -231px;
