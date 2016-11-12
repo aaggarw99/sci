@@ -57,10 +57,10 @@ a{
 }
 
 a:default {
-    color: rgba(255, 255, 255, 0.8);
+    color: #fff;
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: lightgreen;
 
 }
