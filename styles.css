@@ -52,12 +52,11 @@ body{
 }
 
 a{
-  text-decoration: none;
+  color: #fff;
 
 }
 
 a:default {
-    color: #fff;
 }
 
 a:hover {
