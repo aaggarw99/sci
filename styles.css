@@ -2,83 +2,19 @@ html{
   font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
 }
 
-header{
-  width: 66%;
-  margin-left: 17%;
-  left: 0px;
-  top: 0px;
-  background-color: lightgreen;
-  height: 25%;
-  top: 0;
-  left: 0;
-}
-header h1 {
-  text-align: center;
-}
 
 body{
   background-color: whitesmoke;
 }
 
-.page_content{
-  z-index: 0;
-  position: relative;
-}
-
-#sidebar{
-  z-index: 0;
+.menu_toggle {
+  background-color: #333;
+  border-right: 1px solid #000;
+  color: #fff;
   position: fixed;
-  right: 0;
-  left: -190px;
-  top: 0px;
-  bottom: 0px;
-  width: 160px;
-  padding: 5px;
-  background: #333;
-  color: rgba(245, 245, 245, 0.8)
-}
-
-#sidebar ul li:hover{
-  color: rgba(245, 245, 245, 1);
-}
-
-#sidebar li{
-  font-family: "ubuntu", serif;
-  font-size: 16px;
-  list-style: none;
-  margin-bottom: -20px;
-  margin-top: 40px;
-  margin-left: -20px;
-  cursor: pointer;
-  font-family: "ubuntu", sans-serif;
-
-
-}
-
-#no_scroll {
-  overflow: hidden;
-}
-
-.toggle{
-  position: fixed;
-  top: 10px;
-  left: 190px;
-  z-index: 1;
-  font-size: 30px;
-  color: black;
-
-}
-a:hover{
-  color: lightgreen;
-}
-
-a{
-  text-decoration: none;
-}
-
-#side_toggle {
-  display: none;
-}
-#side_toggle:checked + .wrapper .sidebar{
-  left: 0px;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 100%;
+  padding: 10px;
 }
