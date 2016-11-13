@@ -8,6 +8,8 @@ header {
 
 header h1 {
   text-align: center;
+  overflow: hidden;
+
 }
 
 
@@ -15,7 +17,6 @@ body{
   background-color: whitesmoke;
 }
 .menu {
-  overflow: hidden;
   position: relative;
   left: 0;
 }
