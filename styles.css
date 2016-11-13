@@ -2,13 +2,11 @@ html{
   font-family: Oswald;
 }
 
-header {
-  overflow: none;
+header {  overflow: hidden;
 }
 
 header h1 {
   text-align: center;
-  overflow: hidden;
 
 }
 
