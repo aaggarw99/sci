@@ -16,6 +16,10 @@
   </head>
 
   <body class="menu">
+    <div class="popup">
+      Welcome to the new science team website!
+    </div>
+
     <header>
       <a href="#" class="menu_toggle"><i class="material-icons" style="font-size: 48px;">menu</i></a>
       <h1>Recent News</h1>
@@ -47,6 +51,15 @@
               body.toggleClass('menu-open');
           });
         })();
+
+        $(document).ready(function() {
+          var isshow = localStorage.getItem('isshow');
+          if(isshow == null) {
+            localStorage.setItem('isshow', 1);
+            $('.popup').show();
+          }
+
+        });
     </script>
 
   </body>
