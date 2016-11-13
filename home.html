@@ -13,11 +13,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <script src="jquery-3.1.1.min.js"></script>
+        <script src="jquery.firstVisitPopup.js"></script>
   </head>
 
   <body class="menu">
     <div class="popup">
-      Welcome to the new science team website!
+      <p>Welcome to the new science team website!<p>
     </div>
 
     <header>
@@ -51,15 +52,10 @@
               body.toggleClass('menu-open');
           });
         })();
-
-        $(document).ready(function() {
-          var isshow = localStorage.getItem('isshow');
-          if(isshow == null) {
-            localStorage.setItem('isshow', 1);
-            $('.popup').show();
-          }
-
+        $('.popup').firstVisitPopup({
+          cookieName: 'homepage', showAgainSelector: '#show-message'
         });
+
     </script>
 
   </body>
