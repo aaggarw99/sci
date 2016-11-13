@@ -76,9 +76,9 @@ a:hover {
 
 .middle {
   position: fixed;
-  width: 65%;
-  margin-left: 17.5%;
-  margin-right: 17.5%;
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 25%;
   background-color: lightgrey;
   overflow-y: scroll;
   height: 100%;
