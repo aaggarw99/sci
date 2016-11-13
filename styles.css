@@ -93,7 +93,7 @@ a:hover {
 .article h1{
   text-align: left;
   color: #333;
-  margin-bottom: 4px;
+  margin-bottom: -25px;
 }
 
 .article p {
