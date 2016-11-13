@@ -15,7 +15,7 @@ body{
   background-color: whitesmoke;
 }
 .menu {
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   left: 0;
 }
