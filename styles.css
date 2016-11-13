@@ -83,5 +83,20 @@ a:hover {
   overflow-y: scroll;
   height: 100%;
   border-radius: 15px;
-  padding: 15px;
+  padding: 30px;
+}
+
+.article h1{
+  text-align: left;
+  color: #333;
+}
+
+.article p {
+  text-align: center;
+  font-family: "ubuntu", serif;
+}
+
+.article h3 {
+  text-align: left;
+  
 }
