@@ -6,6 +6,10 @@ html{
   text-align: center;
 }
 
+header h1 {
+  display: inline-block;
+}
+
 body{
   background-color: whitesmoke;
 }
