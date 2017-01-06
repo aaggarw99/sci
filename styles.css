@@ -78,7 +78,12 @@ a:hover {
   width: 50%;
   margin-left: 20%;
   margin-right: 25%;
-  background-color: lightgrey;
+  border-left-color: black;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
   overflow-y: scroll;
   height: 100%;
   border-radius: 15px;
