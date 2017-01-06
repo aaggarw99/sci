@@ -78,6 +78,7 @@ a:hover {
   width: 50%;
   margin-left: 20%;
   margin-right: 25%;
+  background-color: whitesmoke;
   border-left-color: black;
   border-left-style: solid;
   border-left-width: 1px;
@@ -86,7 +87,6 @@ a:hover {
   border-right-width: 1px;
   overflow-y: scroll;
   height: 100%;
-  border-radius: 15px;
   padding: 50px;
 }
 
