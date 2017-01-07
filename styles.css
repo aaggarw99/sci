@@ -3,6 +3,7 @@ html{
 }
 
 header {  overflow: hidden;
+  background-color: lightblue;
 }
 
 header h1 {
@@ -143,3 +144,9 @@ a:hover {
 
 }
 #fvpp-dialog p { margin: 0; }
+
+.tab{
+  background-color: lightblue;
+  width: 100%;
+  height: 40px;
+}
