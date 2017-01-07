@@ -4,7 +4,7 @@ html{
 }
 
 header {  overflow: hidden;
-  background-color: deepskyblue;
+  background-color: cornflowerblue;
   height: 200px;
 }
 
@@ -89,6 +89,7 @@ a:hover {
   border-right-color: black;
   border-right-style: solid;
   border-right-width: 1px;
+  border-top: solid navy 5px;
   overflow-y: scroll;
   height: 100%;
   padding: 50px;
