@@ -1,9 +1,10 @@
 html{
   font-family: Oswald;
+  background-color: lightblue;
 }
 
 header {  overflow: hidden;
-  background-color: lightblue;
+  background-color: deepskyblue;
 }
 
 header h1 {
