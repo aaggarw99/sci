@@ -1,10 +1,10 @@
 html{
   font-family: Oswald;
-  background-color: lightblue;
+  background-color: rgb(255, 226, 226);
 }
 
 header {  overflow: hidden;
-  background-color: cornflowerblue;
+  background-color: maroon;
   height: 200px;
 }
 
@@ -73,7 +73,7 @@ a:default {
 }
 
 a:hover {
-  color: lightgreen;
+  color: white;
 
 }
 
@@ -89,7 +89,7 @@ a:hover {
   border-right-color: black;
   border-right-style: solid;
   border-right-width: 1px;
-  border-top: solid navy 5px;
+  border-top: solid black 5px;
   overflow-y: scroll;
   height: 100%;
   padding: 50px;
